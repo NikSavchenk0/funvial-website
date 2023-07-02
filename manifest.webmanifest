@@ -1,0 +1,32 @@
+{
+  "short_name": "Bundled Notes",
+  "name": "Bundled Notes",
+  "description": "The home of the Bundled Notes web app.",
+
+  "icons": [{
+      "src": "./favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#242424",
+  "prefer_related_applications": true,
+  "related_applications": [{
+    "platform": "play",
+    "id": "com.xaviertobin.noted"
+  }],
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/"
+}
